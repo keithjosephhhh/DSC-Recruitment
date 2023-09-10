@@ -14,15 +14,15 @@ The dataset used for this project contains the following columns:
 2. Age: Age of the individual.
 3. Gender: Gender of the individual (encoded as 0 for Female and 1 for Male).
 4. Hours_Studied: Number of hours studied by the individual.
-5. IQ: IQ score of the individual (the target variable).
+5. IQ: IQ score of the individual.
 6. Physics_Marks: Marks obtained in physics.
 7. Math_Marks: Marks obtained in math.
 8. Chemistry_Marks: Marks obtained in chemistry.
-9. Has_Part_Time_Job: Whether the individual has a part-time job (encoded as 0 for No and 1 for Yes).
-10. Study_Hours_Group: Grouping of study hours (not used for modeling).
+9. Has_Part_Time_Job: Whether the individual has a part-time job (encoded as 0 for No and 1 for Yes) (the target variable).
+10. Study_Hours_Group: Grouping of study hours (encoded as 0 for Low and 1 for High)
 
 ## Data Preprocessing
-1. The dataset is loaded, and unnecessary columns like "Name" and "Study_Hours_Group" are dropped.
+1. The dataset is loaded, and unnecessary columns like "Name" is dropped.
 2. Categorical variables like "Gender", "Has_Part_Time_Job" and "Study_Hours_Group" are encoded into numerical values.
 3. The data is split into training and testing sets for model evaluation.
 4. Model Selection
