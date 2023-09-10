@@ -1,8 +1,6 @@
 # DSC-Recruitment
 
-### This project aims to predict whether an individual has a part-time job or not based on various features such as age, gender, hours studied, academic performance, and more. We use machine learning algorithms to build a predictive model and evaluate its performance.
-
-
+This project aims to predict whether an individual has a part-time job or not based on various features such as age, gender, hours studied, academic performance, and more. We use machine learning algorithms to build a predictive model and evaluate its performance.
 
 README.md: The project's documentation (you're reading it).
 data.csv: The dataset containing information about individuals and their part-time job status.
@@ -12,29 +10,31 @@ model.pkl: Trained Model
 ## Dataset
 The dataset used for this project contains the following columns:
 
-Name: The name of the individual (not used for modeling).
-Age: Age of the individual.
-Gender: Gender of the individual (encoded as 0 for Female and 1 for Male).
-Hours_Studied: Number of hours studied by the individual.
-IQ: IQ score of the individual (the target variable).
-Physics_Marks: Marks obtained in physics.
-Math_Marks: Marks obtained in math.
-Chemistry_Marks: Marks obtained in chemistry.
-Has_Part_Time_Job: Whether the individual has a part-time job (encoded as 0 for No and 1 for Yes).
-Study_Hours_Group: Grouping of study hours (not used for modeling).
+1. Name: The name of the individual (not used for modeling).
+2. Age: Age of the individual.
+3. Gender: Gender of the individual (encoded as 0 for Female and 1 for Male).
+4. Hours_Studied: Number of hours studied by the individual.
+5. IQ: IQ score of the individual (the target variable).
+6. Physics_Marks: Marks obtained in physics.
+7. Math_Marks: Marks obtained in math.
+8. Chemistry_Marks: Marks obtained in chemistry.
+9. Has_Part_Time_Job: Whether the individual has a part-time job (encoded as 0 for No and 1 for Yes).
+10. Study_Hours_Group: Grouping of study hours (not used for modeling).
 
 ## Data Preprocessing
 1. The dataset is loaded, and unnecessary columns like "Name" and "Study_Hours_Group" are dropped.
 2. Categorical variables like "Gender", "Has_Part_Time_Job" and "Study_Hours_Group" are encoded into numerical values.
 3. The data is split into training and testing sets for model evaluation.
 4. Model Selection
-5. Several classification algorithms are applied to predict "Has_Part_Time_Job." The algorithms tested include:
+5. Several classification algorithms are applied to predict "Has_Part_Time_Job."
 
-Logistic Regression
-Random Forest Classifier
-Gradient Boosting Classifier
-Support Vector Machine (SVM)
-Model Evaluation
+
+### The algorithms tested include:
+1. Logistic Regression
+2. Random Forest Classifier
+3. Gradient Boosting Classifier
+4. Support Vector Machine (SVM)
+5. Model Evaluation
 
 ### Each model is evaluated using the following metrics:
 Accuracy
