@@ -37,11 +37,11 @@ The dataset used for this project contains the following columns:
 5. Model Evaluation
 
 ### Each model is evaluated using the following metrics:
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
+1. Accuracy
+2. Precision
+3. Recall
+4. F1 Score
+5. Confusion Matrix
 
 ## Results
 The project compares the performance of the different algorithms to determine the best model for predicting whether an individual has a part-time job or not.
