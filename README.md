@@ -3,7 +3,7 @@
 This project aims to predict whether an individual has a part-time job or not based on various features such as age, gender, hours studied, academic performance, and more. We use machine learning algorithms to build a predictive model and evaluate its performance.
 
 1. README.md: The project's documentation (you're reading it).
-2. data.csv: The dataset containing information about individuals and their part-time job status.
+2. Student.csv: The dataset containing information about individuals and their part-time job status.
 3. DSC-Recruitment.ipynb: Jupyter Notebook containing the Python code for data preprocessing, model selection, and evaluation.
 4. model.pkl: Trained Model
 
