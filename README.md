@@ -50,14 +50,16 @@ The project compares the performance of the different algorithms to determine th
 The project provides insights into which machine learning algorithm performs best for the part-time job prediction task based on the dataset and evaluation metrics. The selected model can be used for future predictions.
 
 ## Technologies Used
-NumPy
-Pandas
-Scikit-learn
-Matplotlib
-Seaborn
-Pickle
-How to Use
-Clone this repository to your local machine.
-Install the required libraries using pip install -r requirements.txt.
-Open and run the Jupyter Notebook part_time_job_prediction.ipynb to execute the analysis.
-Feel free to adapt and expand upon this README to provide more context or details specific to your project.
+1. NumPy
+2. Pandas
+3. Scikit-learn
+4. Matplotlib
+5. Seaborn
+6. Pickle
+
+   
+## How to Use
+1. Clone this repository to your local machine.
+2. Install the required libraries using pip install -r requirements.txt.
+3. Open and run the Jupyter Notebook part_time_job_prediction.ipynb to execute the analysis.
+4. Feel free to adapt and expand upon this README to provide more context or details specific to your project.
